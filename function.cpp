@@ -8,7 +8,7 @@ int main(){
     char ch='T';
     cout<<ch<<" is lowercase?"<<islower(ch)<<endl;
     cout<<ch <<"is uppercase letter? "<<isupper(ch)<<endl;
-    cout<<"uppercase oflatter a is  "<< static_cast<char>(toupper('a'))<<endl;
+    cout<<"uppercase oflatter a is  "<< (char)(toupper('a'))<<endl;
 cout<<"lowwercase of latter a is"<<static_cast<char>(tolower('a'))<<endl;
 cout<<"Enter two decimal nums: ";
 cin>>fnum>>snum;
