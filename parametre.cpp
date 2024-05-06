@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 double val = 100;
-double &f()
+double &x()
 {
 return val; // return reference to val 
 //cannot return reference to local var only global 
@@ -9,8 +9,8 @@ return val; // return reference to val
 int main()
 {
 double newval;
-newval = f(); // assign value of val
-f() = 99.1; // change val's value
+newval = x(); // assign value of val
+x() = 99.1; // change val's value
 // reference to val becomes
 // target of assignment
  cout<<newval<<endl;
