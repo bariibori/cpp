@@ -3,7 +3,7 @@ using namespace std;
 struct Student
 {
     int stdID;
-    char name[20];
+    char name[25];
     char sex;
     int age;
     double cgpa;
