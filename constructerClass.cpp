@@ -27,7 +27,7 @@ class cube
 };
 int main()
 {
-            cube c1(2.34);
+            cube c1(4.82);
             cube c2;
             cout << "\nThe side of the cube is: " << c1.side << endl;
             cout << "\nThe volume of the first cube is : " << c1.volume() << endl;
