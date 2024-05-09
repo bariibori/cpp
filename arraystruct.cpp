@@ -13,8 +13,8 @@ double cgpa;
 
 int main()
 {
-    Student students[3];
-    for(int i=0; i<3;i++){
+    Student students[5];
+    for(int i=0; i<5;i++){
         cout<<"\n..............student"<<i+1<<"............\n";
         cout<<"ID     :";
         cin>>students[i].stdID;
@@ -31,7 +31,7 @@ int main()
     cout<<left;
     cout<<"\n"<<setw(10)<<"ID"<<setw(25)<<"Name"<<setw(10)<<"sex"<<setw(10)<<"age"<<setw(10)<<"cgpa";
    
-    for(int i=0; i<3;i++){
+    for(int i=0; i<5;i++){
        cout<<"\n"<<setw(10)<<students[i].stdID
         <<setw(25)<<students[i].name
         <<setw(10)<<students[i].sex
@@ -43,7 +43,7 @@ int main()
 cout<<left;
     cout<<"\n"<<setw(10)<<"ID"<<setw(25)<<"Name"<<setw(10)<<"sex"<<setw(10)<<"age"<<setw(10)<<"cgpa";
    
-    for(int i=0; i<3;i++){
+    for(int i=0; i<5;i++){
          cout<<"\n"<<setw(10)<<students1[i].stdID
         <<setw(25)<<students1[i].name
         <<setw(10)<<students1[i].sex
