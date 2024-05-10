@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[5] = {1, 2, 3, 4, 5};
     int* ptr = arr; // Assign the address of the first element to the pointer
 
    cout << "Original Array: ";
