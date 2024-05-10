@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     double fnum,snum;
-    char ch='T';
+    char ch='B';
     cout<<ch<<" is lowercase?"<<islower(ch)<<endl;
     cout<<ch <<"is uppercase letter? "<<isupper(ch)<<endl;
     cout<<"uppercase oflatter a is  "<< static_cast<char>(toupper('a'))<<endl;
